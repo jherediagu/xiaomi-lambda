@@ -1,0 +1,25 @@
+{
+  "name": "xiaomi-lambda",
+  "version": "1.0.0",
+  "description": "Xiaomi vacuum 2 Alexa integration",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jherediagu/xiaomi-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jherediagu/xiaomi-lambda/issues"
+  },
+  "homepage": "https://github.com/jherediagu/xiaomi-lambda#readme",
+  "devDependencies": {
+    "serverless-plugin-include-dependencies": "^3.2.1"
+  },
+  "dependencies": {
+    "miio": "^0.15.6"
+  }
+}
